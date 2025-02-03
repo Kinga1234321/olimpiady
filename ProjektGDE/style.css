@@ -137,6 +137,7 @@ a {
 
 .box1 a, .box2 a {
     color: white; 
+    font-weight: lighter;
     text-decoration: none; 
     font-size: 20px;
 }
