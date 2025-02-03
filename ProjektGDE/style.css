@@ -1,0 +1,149 @@
+:root {
+    --ff: "Montserrat", sans-serif;
+    --h1: 46px/22px var(--ff);
+    --a: 24px/30px var(--ff);
+    --colorbody: #6b8c8c;
+    --color1: #447286;
+    --color2: #fad5e1;
+    --color3: #bd7b8a;
+    --color4: #163737;
+    --shadow: #00000030 0px 0px 10px 0px;
+    --transition: 0.3s ease-in-out;
+}
+
+/* domyślne tło naszej kadej strony*/
+body {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(to right, #6b8c8c, #1e3a4c);
+    
+}
+
+/*--------HOME PAGE--------*/
+
+/*domyślne ustawienia home page*/
+.home-section {
+    display: flex;
+    background: #aac0b5;
+    border-radius: 20px;
+    padding: 90px;
+    box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1000px;
+    font-family: var(--ff);
+    flex-shrink: 0; /* Żeby sie nie shrinkowalo az tak*/
+
+    
+}
+.style_home-section > div {
+    flex: 1;
+    
+}
+
+/*ustawienia sekcji tekstowej*/
+.text-section {
+    flex: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: left;
+    
+}
+
+/*ustawienia sekcji nazwy Olimpiady*/
+.nazwa {
+    background: #d27d7d;
+    padding: 30px 25px;
+    border-radius: 50px;
+    display: flex;
+    display: inline-block;  /* Prevent stretching */
+    min-width: 150px;  /* preventing it from shrinking */
+}
+
+/*ystawienia napisu*/
+h1 {
+    font-size: 49px;
+    line-height: 1.2;
+    
+}
+h1 span {
+    color: #f5e6a8;
+}
+
+/*ustawienia wygladu linku do main*/
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--color4);
+    transition: var(--transition);
+    text-align: center;
+}
+
+.button {
+    background: white;
+    border: none;
+    padding: 20px 110px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+}
+
+/*ustawienia obrazka*/
+.image-section img {
+    width: 500px;
+    border-radius: 90px;
+}
+
+
+/*-------MAIN PAGE-------*/
+
+/*domyślne ustawienia main page*/
+.style_main {
+    display: flex;
+    font-family: var(--ff);
+    flex-wrap: wrap;
+    gap: 40px;
+    align-content: center;
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.style_main > div {
+    flex: 1;
+    
+}
+
+/*ustawienia boxow*/
+.box1, .box2 {
+    background-color: var(--color3);
+    flex: 1.5;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+      
+}
+
+.box1 a, .box2 a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+
+
+
+
+
+    
