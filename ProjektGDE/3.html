@@ -1,88 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title> 3 </title>
-        <link rel="stylesheet" href="style.css">
-        <style>
-          body{
-              background-color:RGB(29, 191, 164);
-              
-          }
-          h1{
-              font-family:fantasy;
-              background-color:rgb(204, 129, 168);
-          }
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpiady Przedmiotowe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
 
-	
-	#jeden{
-		width:50%;
-                overflow:auto;
-		position:absolute;
-                top:200px;
-                left:300px;
-                z-index:5;
-                padding: 5px;
-                width: 262px;
-		
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="img/logo1.jpg" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="2.html" class="active">Lista konkursów i Olimpiad</a></li>
+                    <li><a href="#">Rekrutacja</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-	}
-
-	#dwa{
-		width:50%;
-                overflow:auto;
-		position:absolute;
-                top:200px;
-                right:300px;
-                z-index:2;
-                padding: 5px;
-                width: 262px;
-
-}
-          h2{
-              font-family:sans-serif;
-              background-color:rgb(91, 212, 202);
-                font-weight:bold;
-		width:50%;
-            		position:absolute;
-}
-                
-	#trzy{
-		top:50px;
-                left:10px;
-                z-index:2;
-                padding: 5px;
-                width: 250px;
-
-          }
-	#cztery{
-		top:150px;
-                left:10px;
-                z-index:2;
-                padding: 5px;
-                width: 250px;
-
-          }
-	.hover a:hover {
-		 background-color: white;
-            color: black;
-}
-
-
-                   
-        </style>
-    </head>
-    <body>
+        <main class="content3">
+            <div class="header">
+                <a>Olimpiady przedmiotowe</a>
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Wyszukaj">
+            </div>
+            
+            <div class="box-container">
+                <div class="box">
+                        <a href="4.html">zwalniające z matury</a>
+                </div>
+                <div class="box">
+                        <a href="#">nie zwalniające z matury</a>
+                </div>
+            </div>
+        </main>
         
-	<h1 id="nagłówek"> Olimpiady Przedmiotowe </h1>
-	<div class="hover">
-	<h1 id="jeden"><a href="4.html">Zwalniające z matury<a/></h1>
-        <h1 id="dwa"><a href="">Inne</a></h1>
-	<h2 id="trzy"><a href="2.html">Lista konkursów i oimpiad<a/></h2>
-	<h2 id="cztery"><a href="">Rekrutacja<a/></h2>
-	</div>
-        
-           
-        
-    </body>
+    </div>
+</body>
+
 </html>
