@@ -7,7 +7,9 @@
     --color1: #447286;
     --color2: #d5a4b3;
     --color3: #bd7b8a;
-    --color4: #163737;
+    --color4: #334a4f;
+    --color5: #f5e6a8;
+    --color6: #162327;
     --shadow: #00000030 0px 0px 10px 0px;
     --transition: 0.4s ease-in-out;
 }
@@ -78,7 +80,7 @@ body {
     top: 40px; 
     left: 30px;
     transform: translate(-0%, -0%);
-    color:var(--color2);  
+    color: white);  
     font-size: 15px; 
     font-weight: bold;
     text-align: center;
@@ -349,9 +351,11 @@ nav ul li a:hover {
 .search-bar input {
     width: 100%;
     padding: 10px;
-    border: none;
+    border: 1px solid #ccc;
     border-radius: 20px;
     outline: none;
+    font-size: 16px;
+    
 }
 
 .box-container {
@@ -392,6 +396,52 @@ nav ul li a:hover {
     max-width: 500px;
     border-radius: 20px;
 }
+
+
+/*--------biologiczna.html--------*/
+.side-links {
+    width: 170px;
+    background-color: var(--color4);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.side-links a {
+    color: var(--color2);
+    text-decoration: none;
+    font-size: var(--a);
+    min-width: 200px;
+    border-radius: 20px;
+}
+
+.side-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-links ul li {
+    margin: 1px 0;
+}
+.side-links a:hover {
+    background-color: var(--color6);
+    transition: var(--transition);
+    border-radius: 10px;
+    
+}
+
+.search-section {
+    flex-grow: 1;
+    padding: 40px;
+    text-align: center;
+}
+
+.description {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
+
 
 
 
