@@ -22,10 +22,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     background: linear-gradient(to right, #6b8c8c, #1e3a4c);
     font-family: var(--ff);
+    overflow: auto;
+    scroll-behavior: smooth;
     
 }
 
@@ -404,7 +406,7 @@ nav ul li a:hover {
 
 .side-links ul {
     list-style: none;
-    padding: 0;
+    padding: 0;   
 }
 
 .side-links ul li {
@@ -427,6 +429,7 @@ nav ul li a:hover {
     margin-top: 20px;
     font-style: italic;
     color: #555;
+
 }
 
 
