@@ -430,6 +430,46 @@ nav ul li a:hover {
 }
 
 
+/* Styling for materials section */
+.materials {
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    max-width: 700px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Material headings */
+.materials p {
+    
+    margin-bottom: 15px;
+}
+
+/* Material list */
+.materials ul {
+    list-style: none;
+    padding: 0;
+}
+
+.materials ul li {
+    background-color: var(--color2);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    transition: background-color var(--transition);
+}
+
+.materials ul li:hover {
+    background-color: var(--color5);
+}
+
 
 
 
