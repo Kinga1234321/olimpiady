@@ -26,8 +26,8 @@ body {
     text-align: center;
     background: linear-gradient(to right, #6b8c8c, #1e3a4c);
     font-family: var(--ff);
-    overflow: auto;
-    scroll-behavior: smooth;
+    /*overflow: auto;
+    /*scroll-behavior: smooth;*/
     
 }
 
@@ -378,6 +378,7 @@ nav ul li a:hover {
     width: 100%;
     max-width: 900px;
     padding: auto;
+    overflow: scroll;
 }
 .list a:hover {
     background-color: var(--color1);
@@ -394,6 +395,7 @@ nav ul li a:hover {
     padding: 30px;
     border-radius: 20px;
     margin: 20px;
+    overflow: auto;
 }
 
 .side-links a {
