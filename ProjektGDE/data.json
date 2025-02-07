@@ -1,0 +1,18 @@
+[
+    {
+        "kierunek": "Biologia",
+        "olimpiady": [
+            "Olimpiada Biologiczna",
+            "Olimpiada Chemiczna",
+            "Olimpiada Wiedzy Ekologicznej"
+        ]
+    },
+    {
+        "kierunek": "Chemia",
+        "olimpiady": [
+            "Olimpiada Chemiczna",
+            "Olimpiada Biologiczna",
+            "Olimpiada Fizyczna"
+        ]
+    }
+]
